@@ -2,11 +2,10 @@ import socket
 import time
 
 with open("ServerLog.txt", "a") as f:
-    
-    
+
     def write_and_print(a):
         print(a)
-        f.write(a)
+        f.write(a+ "\n")
 
     # Create a TCP/IP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
