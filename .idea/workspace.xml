@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9fe6066e-0b56-483d-b364-f85785aad84a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EchoServer.py" afterPath="$PROJECT_DIR$/EchoServer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServerLog.txt" afterPath="$PROJECT_DIR$/ServerLog.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -329,6 +327,14 @@
       <option name="presentableId" value="Default" />
       <updated>1518086139527</updated>
     </task>
+    <task id="LOCAL-00001" summary="\n">
+      <created>1518088310166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518088310166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -361,6 +367,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="\n" />
+    <option name="LAST_COMMIT_MESSAGE" value="\n" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
