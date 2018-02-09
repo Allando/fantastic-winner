@@ -11,9 +11,14 @@ sock.connect(server_address)
 
 try:
 
-    # Send data
-    message = 'This is the message.  It will be repeated.'
-    print ( 'sending "%s"' % message)
+# Send data
+
+    message = input("Hello, there!\n")
+    m = True
+    while m is True:
+        message = input("- ")
+
+    ( 'sending "%s"' % message)
     sock.sendall(message.encode())
 
     # Look for the response
