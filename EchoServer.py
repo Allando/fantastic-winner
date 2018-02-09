@@ -7,7 +7,7 @@ import time
 def main():
     PORT = 6789
     BUFF = 1024
-    msg = "200 OK\r\n"
+    msg = "HTTP/1.1 200 OK\r\n"
 
     # Create a TCP/IP socket
     sock = socket.socket()
