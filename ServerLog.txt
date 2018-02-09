@@ -1,5 +1,2 @@
-starting up on localhost port 6789Waiting for connectionstarting up on localhost port 6789
-Waiting for connection
-Connection from ('127.0.0.1', 51956)
-Received b'This is the message.  It will be repeated.'
-Sending data back to the client
+[Thu Feb  8 12:53:37 2018] Starting up on localhost port 6789
+[Thu Feb  8 12:53:37 2018] Waiting for connection
