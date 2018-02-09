@@ -19,3 +19,19 @@
 [Fri Feb  9 10:47:43 2018] Starting up on localhost port 6789
 [Fri Feb  9 10:47:43 2018] Waiting for connection
 [Fri Feb  9 10:47:54 2018] Connection from ('127.0.0.1', 57178)
+[Fri Feb  9 11:15:55 2018] Starting up on localhost port 6789
+[Fri Feb  9 11:15:55 2018] Waiting for connection
+[Fri Feb  9 11:15:58 2018] Connection from ('127.0.0.1', 57689)
+[Fri Feb  9 11:27:19 2018] Starting up on localhost port 6789
+[Fri Feb  9 11:27:19 2018] Waiting for connection
+[Fri Feb  9 11:27:27 2018] Connection from ('127.0.0.1', 57717)
+[Fri Feb  9 11:44:13 2018] Starting up on localhost port 6789
+[Fri Feb  9 11:44:13 2018] Waiting for connection
+[Fri Feb  9 11:44:15 2018] Connection from ('127.0.0.1', 57777)
+[Fri Feb  9 11:44:19 2018] Received b'med'
+[Fri Feb  9 11:44:19 2018] Sending data back to the client
+[Fri Feb  9 11:44:19 2018] Received b'dig'
+[Fri Feb  9 11:44:19 2018] Sending data back to the client
+[Fri Feb  9 11:58:37 2018] Starting up on localhost port 6789
+[Fri Feb  9 11:58:37 2018] Waiting for connection
+[Fri Feb  9 11:58:42 2018] Connection from ('127.0.0.1', 57870)

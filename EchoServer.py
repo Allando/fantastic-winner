@@ -15,7 +15,7 @@ with open("ServerLog.txt", "a") as f:
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # Bind the socket to the port
-    server_address = ('localhost', 6789)
+    server_address = ('10.111.176.145', 6789)
     write_and_print('Starting up on %s port %s' % server_address)
     sock.bind(server_address)
 
