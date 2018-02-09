@@ -15,7 +15,7 @@ with open("ServerLog.txt", "a") as f:
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # Bind the socket to the port
-    server_address = ('10.111.176.145', 6789)
+    server_address = ('localhost', 6789)
     write_and_print('Starting up on %s port %s' % server_address)
     sock.bind(server_address)
 
@@ -34,6 +34,12 @@ with open("ServerLog.txt", "a") as f:
             while True:
                 data = connection.recv(1024)
                 write_and_print('Received {}'.format(data))
+                print (data)
+                http_response ="""\
+            HTTP/1.1 200 OK
+            
+            Hello
+            """
                 if data:
                     write_and_print('Sending data back to the client')
                 else:

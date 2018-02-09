@@ -5,7 +5,7 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Connect the socket to the port where the server is listening
-server_address = ('10.111.176.145', 6789)
+server_address = ('localhost', 6789)
 print ( 'connecting to %s port %s' % server_address)
 sock.connect(server_address)
 
@@ -13,7 +13,7 @@ sock.connect(server_address)
 
 # Send data
 
-message = input("Hello, there!\n")
+message = input("200 OK! Hello, there!\n")
 m = True
 while m is True:
     message = input("- ")
