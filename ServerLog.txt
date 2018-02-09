@@ -1,37 +1,46 @@
-[Thu Feb  8 12:53:37 2018] Starting up on localhost port 6789
-[Thu Feb  8 12:53:37 2018] Waiting for connection
-[Fri Feb  9 09:44:22 2018] Starting up on localhost port 6789
-[Fri Feb  9 09:44:22 2018] Waiting for connection
-[Fri Feb  9 09:44:27 2018] Connection from ('127.0.0.1', 56434)
-[Fri Feb  9 09:47:56 2018] Starting up on localhost port 6789
-[Fri Feb  9 09:47:56 2018] Waiting for connection
-[Fri Feb  9 09:48:03 2018] Connection from ('127.0.0.1', 56440)
-[Fri Feb  9 10:41:55 2018] Starting up on localhost port 6789
-[Fri Feb  9 10:41:55 2018] Waiting for connection
-[Fri Feb  9 10:41:58 2018] Connection from ('127.0.0.1', 57148)
-[Fri Feb  9 10:42:06 2018] Received b'/send'
-[Fri Feb  9 10:42:06 2018] Sending data back to the client
-[Fri Feb  9 10:42:50 2018] Starting up on localhost port 6789
-[Fri Feb  9 10:42:50 2018] Waiting for connection
-[Fri Feb  9 10:42:54 2018] Connection from ('127.0.0.1', 57150)
-[Fri Feb  9 10:43:11 2018] Received b'/send'
-[Fri Feb  9 10:43:11 2018] Sending data back to the client
-[Fri Feb  9 10:47:43 2018] Starting up on localhost port 6789
-[Fri Feb  9 10:47:43 2018] Waiting for connection
-[Fri Feb  9 10:47:54 2018] Connection from ('127.0.0.1', 57178)
-[Fri Feb  9 11:15:55 2018] Starting up on localhost port 6789
-[Fri Feb  9 11:15:55 2018] Waiting for connection
-[Fri Feb  9 11:15:58 2018] Connection from ('127.0.0.1', 57689)
-[Fri Feb  9 11:27:19 2018] Starting up on localhost port 6789
-[Fri Feb  9 11:27:19 2018] Waiting for connection
-[Fri Feb  9 11:27:27 2018] Connection from ('127.0.0.1', 57717)
-[Fri Feb  9 11:44:13 2018] Starting up on localhost port 6789
-[Fri Feb  9 11:44:13 2018] Waiting for connection
-[Fri Feb  9 11:44:15 2018] Connection from ('127.0.0.1', 57777)
-[Fri Feb  9 11:44:19 2018] Received b'med'
-[Fri Feb  9 11:44:19 2018] Sending data back to the client
-[Fri Feb  9 11:44:19 2018] Received b'dig'
-[Fri Feb  9 11:44:19 2018] Sending data back to the client
-[Fri Feb  9 11:58:37 2018] Starting up on localhost port 6789
-[Fri Feb  9 11:58:37 2018] Waiting for connection
-[Fri Feb  9 11:58:42 2018] Connection from ('127.0.0.1', 57870)
+[Fri Feb  9 12:31:45 2018] Starting up on  port 6789
+[Fri Feb  9 12:31:45 2018] Waiting for connection
+[Fri Feb  9 12:31:50 2018] Connection from ('127.0.0.1', 48338)
+[Fri Feb  9 12:31:50 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 12:31:50 2018] Sending data back to the client
+[Fri Feb  9 12:37:06 2018] Starting up on  port 6789
+[Fri Feb  9 12:37:06 2018] Waiting for connection
+[Fri Feb  9 12:37:26 2018] Starting up on  port 6789
+[Fri Feb  9 12:37:26 2018] Waiting for connection
+[Fri Feb  9 12:37:31 2018] Connection from ('127.0.0.1', 48354)
+[Fri Feb  9 12:54:58 2018] Starting up on  port 6789
+[Fri Feb  9 12:54:58 2018] Waiting for connection
+[Fri Feb  9 12:55:09 2018] Connection from ('127.0.0.1', 48408)
+[Fri Feb  9 12:55:09 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 12:56:11 2018] Starting up on  port 6789
+[Fri Feb  9 12:56:11 2018] Waiting for connection
+[Fri Feb  9 12:56:15 2018] Connection from ('127.0.0.1', 48424)
+[Fri Feb  9 12:56:15 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 12:57:16 2018] Starting up on  port 6789
+[Fri Feb  9 12:57:16 2018] Waiting for connection
+[Fri Feb  9 12:57:20 2018] Connection from ('127.0.0.1', 48434)
+[Fri Feb  9 12:57:20 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 12:58:22 2018] Starting up on  port 6789
+[Fri Feb  9 12:58:22 2018] Waiting for connection
+[Fri Feb  9 12:58:29 2018] Connection from ('127.0.0.1', 48484)
+[Fri Feb  9 12:58:29 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 12:59:47 2018] Starting up on  port 6789
+[Fri Feb  9 12:59:47 2018] Waiting for connection
+[Fri Feb  9 12:59:53 2018] Connection from ('127.0.0.1', 48494)
+[Fri Feb  9 12:59:53 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 13:02:40 2018] Starting up on  port 6789
+[Fri Feb  9 13:02:40 2018] Waiting for connection
+[Fri Feb  9 13:02:44 2018] Connection from ('127.0.0.1', 48504)
+[Fri Feb  9 13:02:44 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 13:04:25 2018] Starting up on  port 6789
+[Fri Feb  9 13:04:25 2018] Waiting for connection
+[Fri Feb  9 13:04:30 2018] Connection from ('127.0.0.1', 48526)
+[Fri Feb  9 13:04:30 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 13:13:19 2018] Starting up on  port 6789
+[Fri Feb  9 13:13:19 2018] Waiting for connection
+[Fri Feb  9 13:13:29 2018] Connection from ('127.0.0.1', 48568)
+[Fri Feb  9 13:13:29 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
+[Fri Feb  9 13:14:41 2018] Starting up on  port 6789
+[Fri Feb  9 13:14:41 2018] Waiting for connection
+[Fri Feb  9 13:14:56 2018] Connection from ('127.0.0.1', 48590)
+[Fri Feb  9 13:14:56 2018] Received b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\nUpgrade-Insecure-Requests: 1\r\nDNT: 1\r\n\r\n'
