@@ -18,27 +18,36 @@ def main():
         conn, addr = sock.accept()
         try:
             request = conn.recv(1024)
-            print (request, '::', request.split()[0],':',request.split()[1])
+            print(request, '::', request.split()[0], ':', request.split()[1])
             filename = request.split()[1]
             print(filename, '||', filename[1:])
+            if filename == '' or filename == '/':
+                f = open('index.html')
+                outputdata = f.read()
+                conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
+                conn.send(bytes(outputdata, 'utf-8'))
+                f.close()
             f = open(filename[1:])
             outputdata = f.read()
             print(outputdata)
             conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
             conn.send(bytes(outputdata, 'utf-8'))
-            conn.close()
+            f.close()
             write_and_print(request.decode('utf-8'))
         except IOError:
             print("404 Not Found")
-            conn.send(bytes('\HTTP/1.1 404 Not Found\n\n', 'utf-8'))
+            conn.send(bytes('\HTTP/1.1 404 Not Found\r\n', 'utf-8'))
+        finally:
+            conn.close()
+
 #        http_response = """\
 #               HTTP/1.1 200 OK
 #
- #
-  #              Hello, World
- #               """
-  #      conn.sendall(bytes(http_response, 'utf-8'))
-   #     conn.close()
+#
+#              Hello, World
+#               """
+#      conn.sendall(bytes(http_response, 'utf-8'))
+#     conn.close()
 
 
 def write_and_print(a):
