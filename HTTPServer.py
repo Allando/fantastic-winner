@@ -17,17 +17,25 @@ def main():
     while True:
         conn, addr = sock.accept()
         request = conn.recv(1024)
-        
+        print (request, '::', request.split()[0],':',request.split()[1])
+        filename = request.split()[1]
+        print(filename, '||', filename[1:])
+        f = open(filename[1:])
+        outputdata = f.read()
+        print(outputdata)
+        conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
+        conn.send(bytes(outputdata, 'utf-8'))
+        conn.close()
         write_and_print(request.decode('utf-8'))
 
-        http_response = """\
-                HTTP/1.1 200 OK 
-                
-                
-                Hello, World
-                """
-        conn.sendall(bytes(http_response, 'utf-8'))
-        conn.close()
+#        http_response = """\
+#               HTTP/1.1 200 OK
+#
+ #
+  #              Hello, World
+ #               """
+  #      conn.sendall(bytes(http_response, 'utf-8'))
+   #     conn.close()
 
 
 def write_and_print(a):
