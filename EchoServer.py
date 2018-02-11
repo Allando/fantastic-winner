@@ -9,6 +9,8 @@ def main():
     BUFF = 1024
     msg = "HTTP/1.1 200 OK\r\n"
 
+    http_response = """ HTTP \ 1.1 200 OK\r\n """
+
     # Create a TCP/IP socket
     sock = socket.socket()
 
@@ -24,18 +26,18 @@ def main():
         # Wait for connection
         write_and_print('Waiting for connection')
         connection, client_address = sock.accept()
+
         try:
             write_and_print('Connection from {}'.format(client_address))
-            # Receive the data in small chunks and retransmit it
-            while True:
-                data = connection.recv(BUFF)
-                write_and_print('Received {}'.format(data))
-                if data:
-                    sock.sendto(msg.encode(), server_address)
-                    write_and_print('Sending data back to the client')
-                else:
-                    write_and_print('No more data from {}'.format(client_address))
-                    break
+            data = connection.recv(BUFF)
+            write_and_print('Received {}'.format(data.decode('utf-8')))
+            
+            if data:
+                connection.sendall(bytes(http_response, 'utf-8'))
+            else:
+                write_and_print('No more data from {}'.format(client_address))
+                break
+        
         finally:
             # Clean up the connection
             connection.close()
