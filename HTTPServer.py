@@ -16,18 +16,21 @@ def main():
     write_and_print('Serving HTTP on port {}...'.format(PORT))
     while True:
         conn, addr = sock.accept()
-        request = conn.recv(1024)
-        print (request, '::', request.split()[0],':',request.split()[1])
-        filename = request.split()[1]
-        print(filename, '||', filename[1:])
-        f = open(filename[1:])
-        outputdata = f.read()
-        print(outputdata)
-        conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
-        conn.send(bytes(outputdata, 'utf-8'))
-        conn.close()
-        write_and_print(request.decode('utf-8'))
-
+        try:
+            request = conn.recv(1024)
+            print (request, '::', request.split()[0],':',request.split()[1])
+            filename = request.split()[1]
+            print(filename, '||', filename[1:])
+            f = open(filename[1:])
+            outputdata = f.read()
+            print(outputdata)
+            conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
+            conn.send(bytes(outputdata, 'utf-8'))
+            conn.close()
+            write_and_print(request.decode('utf-8'))
+        except IOError:
+            print("404 Not Found")
+            conn.send(bytes('\HTTP/1.1 404 Not Found\n\n', 'utf-8'))
 #        http_response = """\
 #               HTTP/1.1 200 OK
 #
