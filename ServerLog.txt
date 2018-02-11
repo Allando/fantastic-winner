@@ -794,3 +794,96 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
 [Sun Feb 11 17:00:06 2018] Serving HTTP on port 6789...
 [Sun Feb 11 17:00:33 2018] Serving HTTP on port 6789...
 [Sun Feb 11 17:01:46 2018] Serving HTTP on port 6789...
+[Sun Feb 11 17:04:23 2018] Serving HTTP on port 6789...
+[Sun Feb 11 17:04:29 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Sun Feb 11 17:04:58 2018] Serving HTTP on port 6789...
+[Sun Feb 11 17:06:28 2018] Serving HTTP on port 6789...
+[Sun Feb 11 17:06:34 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Sun Feb 11 17:07:24 2018] Serving HTTP on port 6789...
+[Sun Feb 11 17:07:25 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Sun Feb 11 17:07:29 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Sun Feb 11 17:08:56 2018] Serving HTTP on port 6789...
+[Sun Feb 11 17:08:59 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Sun Feb 11 17:09:09 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Sun Feb 11 17:09:14 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Sun Feb 11 17:09:29 2018] Serving HTTP on port 6789...
+[Sun Feb 11 17:09:31 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Sun Feb 11 17:17:00 2018] Serving HTTP on port 6789...
