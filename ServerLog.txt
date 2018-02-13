@@ -194,3 +194,19 @@ DNT: 1
 
 </body>
 </html> 
+[Tue Feb 13 13:22:08 2018] Starting connection on port 6789...
+[Tue Feb 13 13:28:24 2018] Request: b'GET /index.html HTTP/1.1\r\nHost:127.0.0.1:6789\r\n'
+[Tue Feb 13 13:28:24 2018] Filename: b'/index.html'
+[Tue Feb 13 13:28:24 2018] <!DOCTYPE html>
+<html>
+<title>fantastic-winner</title>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph Allan is stupid.</p>
+
+</body>
+</html> 
+[Tue Feb 13 13:28:24 2018] GET /index.html HTTP/1.1
+Host:127.0.0.1:6789
+
