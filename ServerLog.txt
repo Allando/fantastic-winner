@@ -182,3 +182,15 @@ DNT: 1
 
 </body>
 </html> 
+[Tue Feb 13 12:44:37 2018] Request: b'GET / HTTP/1.1\r\nHost:127.0.0.1:6789\r\n'
+[Tue Feb 13 12:44:37 2018] Filename: b'/'
+[Tue Feb 13 12:44:37 2018] <!DOCTYPE html>
+<html>
+<title>fantastic-winner</title>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph Allan is stupid.</p>
+
+</body>
+</html> 
