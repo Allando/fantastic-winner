@@ -3,7 +3,7 @@
 import socket
 import time
 
-#
+
 def main():
     HOST = ''
     PORT = 6789
@@ -13,52 +13,45 @@ def main():
     sock.bind((HOST, PORT))
     sock.listen(1)
     
-    write_and_print('Serving HTTP on port {}...'.format(PORT))
+    logger('Starting connection on port {}...'.format(PORT))
     while True:
         conn, addr = sock.accept()
         try:
             request = conn.recv(1024)
-            print(request, '::', request.split()[0], ':', request.split()[1])
+            logger("Request: {}".format(request))
             filename = request.split()[1]
-            print(filename, '||', filename[1:])
+            logger("Filename: {}".format(filename))
             if filename == b'' or filename == b'/':
                 f = open('index.html')
                 outputdata = f.read()
-                print(outputdata)
+                logger(outputdata)
                 conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
                 conn.send(bytes(outputdata, 'utf-8'))
                 f.close()
             else:
                 f = open(filename[1:])
                 outputdata = f.read()
-                print(outputdata)
+                logger(outputdata)
                 conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
                 conn.send(bytes(outputdata, 'utf-8'))
                 f.close()
-                write_and_print(request.decode('utf-8'))
+                logger(request.decode('utf-8'))
         except IOError:
-            print("404 Not Found")
+            logger("404 Not Found")
             conn.send(bytes('\HTTP/1.1 404 Not Found\r\n', 'utf-8'))
         finally:
             conn.close()
 
-#        http_response = """\
-#               HTTP/1.1 200 OK
-#
-#
-#              Hello, World
-#               """
-#      conn.sendall(bytes(http_response, 'utf-8'))
-#     conn.close()
 
-
-def write_and_print(a):
+def logger(a):
     """
     Prints a to terminal as well as writes a to file
     """
+    print(a)
     with open("ServerLog.txt", "a") as f:
         current_time = time.asctime(time.localtime(time.time()))
         f.write('[{}] '.format(current_time) + a + "\n")
 
 
-main()
+if __name__ == '__main__':
+    main()
