@@ -21,19 +21,21 @@ def main():
             print(request, '::', request.split()[0], ':', request.split()[1])
             filename = request.split()[1]
             print(filename, '||', filename[1:])
-            if filename == '' or filename == '/':
+            if filename == b'' or filename == b'/':
                 f = open('index.html')
                 outputdata = f.read()
+                print(outputdata)
                 conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
                 conn.send(bytes(outputdata, 'utf-8'))
                 f.close()
-            f = open(filename[1:])
-            outputdata = f.read()
-            print(outputdata)
-            conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
-            conn.send(bytes(outputdata, 'utf-8'))
-            f.close()
-            write_and_print(request.decode('utf-8'))
+            else:
+                f = open(filename[1:])
+                outputdata = f.read()
+                print(outputdata)
+                conn.send(bytes('\nHTTP/1.1 200 OK\n\n', 'utf-8'))
+                conn.send(bytes(outputdata, 'utf-8'))
+                f.close()
+                write_and_print(request.decode('utf-8'))
         except IOError:
             print("404 Not Found")
             conn.send(bytes('\HTTP/1.1 404 Not Found\r\n', 'utf-8'))
