@@ -38,7 +38,7 @@ def main():
                 logger(request.decode('utf-8'))
         except IOError:
             logger("404 Not Found")
-            conn.send(bytes('\HTTP/1.1 404 Not Found\r\n', 'utf-8'))
+            conn.send(bytes('\HTTP/1.1 404 Not Found\n\n', 'utf-8'))
         finally:
             conn.close()
 

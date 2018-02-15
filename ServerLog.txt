@@ -210,3 +210,82 @@ DNT: 1
 [Tue Feb 13 13:28:24 2018] GET /index.html HTTP/1.1
 Host:127.0.0.1:6789
 
+[Thu Feb 15 08:29:11 2018] Starting connection on port 6789...
+[Thu Feb 15 08:29:20 2018] Request: b'GET /index.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:29:20 2018] Filename: b'/index.html'
+[Thu Feb 15 08:29:20 2018] <!DOCTYPE html>
+<html>
+<title>fantastic-winner</title>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html> 
+[Thu Feb 15 08:29:20 2018] GET /index.html HTTP/1.1
+Host: localhost:6789
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+[Thu Feb 15 08:29:26 2018] Request: b'GET /favicon.ico HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nAccept: image/webp,image/apng,image/*,*/*;q=0.8\r\nReferer: http://localhost:6789/index.html\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:29:26 2018] Filename: b'/favicon.ico'
+[Thu Feb 15 08:29:26 2018] 404 Not Found
+[Thu Feb 15 08:29:33 2018] Request: b''
+[Thu Feb 15 08:29:55 2018] Starting connection on port 6789...
+[Thu Feb 15 08:30:00 2018] Request: b'GET /index2.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:30:00 2018] Filename: b'/index2.html'
+[Thu Feb 15 08:30:00 2018] 404 Not Found
+[Thu Feb 15 08:30:34 2018] Request: b''
+[Thu Feb 15 08:33:07 2018] Starting connection on port 6789...
+[Thu Feb 15 08:33:27 2018] Request: b'GET / HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:33:27 2018] Filename: b'/'
+[Thu Feb 15 08:33:27 2018] <!DOCTYPE html>
+<html>
+<title>fantastic-winner</title>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html> 
+[Thu Feb 15 08:33:27 2018] Request: b'GET /favicon.ico HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nAccept: image/webp,image/apng,image/*,*/*;q=0.8\r\nReferer: http://localhost:6789/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:33:27 2018] Filename: b'/favicon.ico'
+[Thu Feb 15 08:33:27 2018] 404 Not Found
+[Thu Feb 15 08:33:40 2018] Request: b''
+[Thu Feb 15 08:35:32 2018] Starting connection on port 6789...
+[Thu Feb 15 08:35:38 2018] Request: b'GET /ind.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:35:38 2018] Filename: b'/ind.html'
+[Thu Feb 15 08:35:38 2018] 404 Not Found
+[Thu Feb 15 08:36:18 2018] Request: b''
+[Thu Feb 15 08:38:00 2018] Starting connection on port 6789...
+[Thu Feb 15 08:38:04 2018] Request: b'GET /ind.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:38:04 2018] Filename: b'/ind.html'
+[Thu Feb 15 08:45:04 2018] Starting connection on port 6789...
+[Thu Feb 15 08:45:13 2018] Request: b'GET /ind.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:45:13 2018] Filename: b'/ind.html'
+[Thu Feb 15 08:52:52 2018] Starting connection on port 6789...
+[Thu Feb 15 08:52:59 2018] Request: b'GET /ind.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:52:59 2018] Filename: b'/ind.html'
+[Thu Feb 15 08:54:50 2018] 404 Not Found
+[Thu Feb 15 08:55:09 2018] Starting connection on port 6789...
+[Thu Feb 15 08:55:13 2018] Request: b'GET /ind.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:55:13 2018] Filename: b'/ind.html'
+[Thu Feb 15 08:55:13 2018] 404 Not Found
+[Thu Feb 15 08:55:27 2018] Starting connection on port 6789...
+[Thu Feb 15 08:55:31 2018] Request: b'GET /ind.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 08:55:31 2018] Filename: b'/ind.html'
+[Thu Feb 15 09:18:05 2018] 404 Not Found
+[Thu Feb 15 09:18:28 2018] Starting connection on port 6789...
+[Thu Feb 15 09:18:39 2018] Request: b'GET /ind.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 09:18:39 2018] Filename: b'/ind.html'
+[Thu Feb 15 09:32:08 2018] Starting connection on port 6789...
+[Thu Feb 15 09:32:14 2018] Request: b'GET /ind.html HTTP/1.1\r\nHost: localhost:6789\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n'
+[Thu Feb 15 09:32:14 2018] Filename: b'/ind.html'
+[Thu Feb 15 09:32:14 2018] 404 Not Found
